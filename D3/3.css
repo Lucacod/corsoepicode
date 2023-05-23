@@ -1,0 +1,105 @@
+body {
+    margin: 0;
+    background-color: #EAEDED;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.head {
+    background-color: #222F3E;
+    padding: 0.6em;
+}
+
+.img-logo1 {
+    height: 40px
+
+}
+
+main {
+    padding: 20px;
+}
+
+nav {
+    background-color: #364657;
+    color: white;
+    padding: 0.5em;
+}
+
+nav span {
+    margin-left: 1em;
+}
+
+.shop-all {
+    background-color: #F56600;
+    text-align: center;
+    color: white;
+    padding: 0.5em;
+    margin-top: 1em;
+    margin-bottom: 2em;
+}
+
+.bg-image {
+    background-image: url(./assets/bg-image.png);
+    text-align: center;
+    color: white;
+    padding: 2em;
+    margin-bottom: 2em;
+}
+
+.title-cards{
+    text-align: left
+}
+
+
+.title-cards span {
+  color: #2B8396;
+  margin-left: 1em;
+}
+
+.cards {
+    width: 100%;
+    background-color: white;
+    text-align: center;
+}
+
+.cards-img {
+    width: 300px;
+    height: 360px;
+    border-radius: 20px;
+    margin-left: 1em;
+    object-fit: cover;
+}
+
+#content {
+    text-align: center;
+    font-size: large;
+    margin-top: 2em;
+}
+
+#content span {
+  color: #2B8396;
+  margin-left: 1em;
+}
+
+.container {
+    width: 100%;
+}
+
+#back-to-top {
+    background-color: #364657;
+    text-align: center;
+    padding: 1em;
+}
+
+#back-to-top a {
+    color: white;
+}
+
+#logo {
+    background-color: #222F3E;
+    text-align: center;
+    padding: 4em;
+}
+
+#logo img {
+    height: 50px;
+}
