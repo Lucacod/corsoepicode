@@ -1,0 +1,15 @@
+body{
+
+    background-image: linear-gradient(to right, hsl(32, 83%, 7%) 0%, #0d266a 50%, #0a365d 100%);
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10em;
+}
+
+
+.card-body{
+    height: 45px;
+}
