@@ -1,0 +1,37 @@
+main {
+    min-height: 100vh;
+   padding-left: 5%;
+   padding-right: 6em;
+   overflow-x: hidden;
+}
+
+button {
+    margin-left: 3em;
+    height: 40px;
+    width: 90px;
+    background-color: darkslategrey;
+    color: white;
+    
+}
+
+main ul {
+    background-color: aqua;
+}
+
+.icons span {
+    margin-right: 1em;
+}
+
+ section h2 {
+    font-size: 25px;
+}
+
+
+#card {
+    transition: transform 0.3s ease;
+}
+  
+  #card:hover {
+    transform: scale(1.2);
+  }
+  
