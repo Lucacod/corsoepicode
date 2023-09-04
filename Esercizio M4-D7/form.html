@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="./styleform.css">
+</head>
+<body>
+    <header>
+        <h2>PRODOTTO</h2>
+
+    </header>
+    
+     <div class="container">
+
+        <form id="form" class="" novalidate>
+
+            <div class="mb-3">
+                <label for="name" class="form-label">Name</label>
+                <input type="text" class="form-control" id="name" required>
+                <span class="text-danger" id="name-error"></span>
+            </div>
+
+            <div class="mb-3">
+                <label for="description" class="form-label">Description</label>
+                <input type="text" class="form-control" id="name" required>
+                <span class="text-danger" id="name-error"></span>
+            </div>
+
+            <div class="mb-3">
+                <label for="brand" class="form-label">Brand</label>
+                <input type="text" class="form-control" id="name" required>
+                <span class="text-danger" id="name-error"></span>
+            </div>
+
+            <div class="mb-3">
+                <label for="Imageurl" class="form-label">ImageUrl</label>
+                <input type="text" class="form-control" id="name" required>
+                <span class="text-danger" id="name-error"></span>
+            </div>
+
+            <div class="mb-3">
+                <label for="price" class="form-label">Price</label>
+                <input type="text" class="form-control" id="name" required>
+                <span class="text-danger" id="name-error"></span>
+            </div>
+            <button type="submit" onclick="validateAndSubmit()" class="btn btn-primary">Aggiungi prodotto</button>
+
+        </form>
+
+     </div>
+
+
+<script src="./form.js"></script>
+</body>
+</html>
