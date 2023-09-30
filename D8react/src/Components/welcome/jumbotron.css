@@ -1,0 +1,41 @@
+/* Stile del jumbotron */
+.jumbotron {
+    background-image: url('./libreria\ fantasy.jpeg'); /* Immagine di sfondo fantasy */
+    background-size: cover; /* Copre tutto il contenitore con l'immagine */
+    background-position: center center; /* Centra l'immagine sia verticalmente che orizzontalmente */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    color: #fff; /* Colore del testo bianco per contrastare l'immagine di sfondo */
+    font-family: 'Cursive', cursive; /* Un font stilizzato per un aspetto fantasy */
+  }
+  
+  /* Stile del titolo */
+  .jumbotron h1 {
+    font-size: 3rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Ombra del testo */
+  }
+  
+  /* Stile del paragrafo */
+  .jumbotron p {
+    font-size: 1.5rem;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+  }
+  
+  /* Stile del pulsante */
+  .jumbotron .btn-primary {
+    font-size: 1.3rem;
+    padding: 10px 20px;
+    background-color: #5e3f6b; /* Un colore viola scuro per il pulsante */
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Stile del pulsante al passaggio del mouse */
+  .jumbotron .btn-primary:hover {
+    background-color: #3d2850; /* Cambia il colore del pulsante al passaggio del mouse */
+  }
+  

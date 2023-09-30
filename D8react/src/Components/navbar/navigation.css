@@ -1,0 +1,42 @@
+.custom-nav {
+    /* background-image: url(https://png.pngtree.com/thumb_back/fw800/background/20230426/pngtree-an-old-library-or-book-room-with-some-books-and-plants-image_2521166.jpg) */
+    
+}
+.custom-nav {
+    background-position: center;
+}
+/* Stile generale della navbar */
+.custom-nav {
+    background-color: #5E3F6A; /* Colore di sfondo fantasy */
+    padding: 10px 0;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Stile del logo */
+.custom-nav .navbar-brand {
+    font-size: 24px;
+    color: #fff; /* Colore del testo del logo */
+    font-family: 'fantasy-font', cursive; /* Font fantasy personalizzato */
+}
+
+/* Stile dei link nella navbar */
+.custom-nav .navbar-nav .nav-link {
+    font-size: 18px;
+    color: #fff;
+    margin-right: 20px;
+    font-family: 'fantasy-font', cursive;
+    transition: color 0.3s;
+}
+
+.custom-nav .navbar-nav .nav-link:hover {
+    color: #FFD700; /* Cambia colore al passaggio del mouse a un colore dorato fantasy */
+}
+
+
+/* Stile del testo fantasy */
+.fantasy-text {
+    font-size: 22px; /* Dimensione del testo */
+    color: #FFD700; /* Colore dorato fantasy */
+    font-family: 'fantasy-font', cursive; /* Font fantasy personalizzato */
+    margin-top: 8px; /* Spaziatura dalla navbar */
+}
