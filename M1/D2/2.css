@@ -1,0 +1,44 @@
+body {
+    text-align: center;
+    margin: 0;
+
+}
+
+header img {
+    width: 12em;
+    padding: 1em;
+
+}
+
+nav {
+    text-align: center;
+    background-color: #FDFBF1;
+    border-top: 1px solid #FFE5A5;
+    padding: 1px;
+    margin-bottom: 4em;
+}
+
+main {
+    width: 50%;
+    text-align: left;
+    margin: auto;
+}
+main img {
+    width: 100%;
+    border-radius: 20px;
+    box-shadow: 4px 8px 10px 0px;
+}
+
+main h5 {
+    text-align: center;
+}
+.feat {
+    color: brown;
+}
+
+p a {
+    color: #65aeae;
+}
+ li{
+    padding: 0.5em;
+ }
